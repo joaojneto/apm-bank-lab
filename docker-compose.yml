@@ -1,0 +1,326 @@
+version: '3.8'
+
+services:
+  elastic_bank_consulta_saldo:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consulta_saldo
+
+  elastic_bank_gerar_extrato:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=gerar_extrato
+
+  elastic_bank_realizar_pagamento:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=realizar_pagamento
+
+  elastic_bank_processar_transferencia:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=processar_transferencia
+
+  elastic_bank_autenticar_usuario:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=autenticar_usuario
+
+  elastic_bank_consultar_limite:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consultar_limite
+
+  elastic_bank_registrar_pagamento_cartao:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=registrar_pagamento_cartao
+
+  elastic_bank_verificar_disponibilidade:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=verificar_disponibilidade
+
+  elastic_bank_calcular_juros:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=calcular_juros
+
+  elastic_bank_consultar_taxas:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consultar_taxas
+
+  elastic_bank_simular_emprestimo:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=simular_emprestimo
+
+  elastic_bank_consultar_historico_transacoes:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consultar_historico_transacoes
+
+  elastic_bank_emitir_boletos:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=emitir_boletos
+
+  elastic_bank_analisar_credito:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=analisar_credito
+
+  elastic_bank_gerenciar_notificacoes:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=gerenciar_notificacoes
+
+  elastic_bank_monitorar_fraude:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=monitorar_fraude
+
+  elastic_bank_aplicar_limite_cartao:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=aplicar_limite_cartao
+
+  elastic_bank_atualizar_dados_cadastrais:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=atualizar_dados_cadastrais
+
+  elastic_bank_enviar_comprovante:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=enviar_comprovante
+
+  elastic_bank_validar_saldo:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=validar_saldo
+
+  elastic_bank_gerar_fatura_cartao:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=gerar_fatura_cartao
+
+  elastic_bank_bloqueio_cartao:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=bloqueio_cartao
+
+  elastic_bank_elastic_bank_desbloqueio_cartao:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=desbloqueio_cartao
+
+  elastic_bank_enviar_sms_autenticacao:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=enviar_sms_autenticacao
+
+  elastic_bank_consultar_emprestimos_ativos:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consultar_emprestimos_ativos
+
+  elastic_bank_calcular_parcelas:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=calcular_parcelas
+
+  elastic_bank_efetuar_debito_automatico:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=efetuar_debito_automatico
+
+  elastic_bank_consultar_tarifas_bancarias:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consultar_tarifas_bancarias
+
+  elastic_bank_transferir_poupanca_corrente:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=transferir_poupanca_corrente
+
+  elastic_bank_acompanhar_solicitacoes:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=acompanhar_solicitacoes
+
+  elastic_bank_gerar_extrato_anual:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=gerar_extrato_anual
+
+  elastic_bank_configurar_alertas:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=configurar_alertas
+
+  elastic_bank_suporte_tecnico:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=suporte_tecnico
+
+  elastic_bank_abrir_reclamacoes:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=abrir_reclamacoes
+
+  elastic_bank_confirmar_dados_pix:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=confirmar_dados_pix
+
+  elastic_bank_solicitar_cartao_novo:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=solicitar_cartao_novo
+
+  elastic_bank_consultar_status_pagamento:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consultar_status_pagamento
+
+  elastic_bank_cadastrar_beneficiarios:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=cadastrar_beneficiarios
+
+  elastic_bank_consultar_tabela_cambio:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consultar_tabela_cambio
+
+  elastic_bank_elastic_bank_cancelar_agendamento:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=cancelar_agendamento
+
+  elastic_bank_gerenciar_perfil_usuario:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=gerenciar_perfil_usuario
+
+  elastic_bank_autorizar_pagamento_qr:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=autorizar_pagamento_qr
+
+  elastic_bank_relatorio_gastos_categoria:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=relatorio_gastos_categoria
+
+  elastic_bank_efetuar_saque_virtual:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=efetuar_saque_virtual
+
+  elastic_bank_consultar_investimentos:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consultar_investimentos
+
+  elastic_bank_atualizar_dados_conta:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=atualizar_dados_conta
+
+  elastic_bank_consultar_bonus_programa:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consultar_bonus_programa
+
+  elastic_bank_solicitar_transferencia_exterior:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=solicitar_transferencia_exterior
+
+  elastic_bank_verificar_rendimento_investimentos:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=verificar_rendimento_investimentos
+
+  elastic_bank_calcular_antecipacao_parcelas:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=calcular_antecipacao_parcelas
+
+  elastic_bank_validar_pagamento_fatura:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=validar_pagamento_fatura
+
+  elastic_bank_configurar_pagamento_recurrente:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=configurar_pagamento_recurrente
+
+  elastic_bank_emitir_certificado_pagamento:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=emitir_certificado_pagamento
+
+  elastic_bank_consultar_movimentacao_internacional:
+    image: default_apm_app
+    environment:
+      - ENV=production
+      - SERVICE_NAME=consultar_movimentacao_internacional
